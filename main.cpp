@@ -126,6 +126,6 @@ int main(int argc, char** argv)
     init();
     // Send graphics to display window
     glutDisplayFunc(home);
-    // Display everything and wait.
+    // Display everything then wait
     glutMainLoop();
 }
