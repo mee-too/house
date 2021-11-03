@@ -7,9 +7,7 @@ void myInit(void)
 
     glClearColor(0.0, 0.0, 0.0, 0.0); // sets background color to white
 
-    // sets a point to be 4x4 pixels
-
-    glMatrixMode(GL_PROJECTION);
+    glMatrixMode(GL_PROJECTION); // sets a point to be 4x4 pixels
 
     glLoadIdentity();
 
