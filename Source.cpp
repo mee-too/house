@@ -141,7 +141,7 @@ int main(int argc, char** argv)
 
     glutInitWindowPosition(10, 10); // sets the starting position for the window
 
-    glutCreateWindow("My first house with OpenGL!"); // creates the window and sets the title
+    glutCreateWindow("My first house with OpenGL!");// creates the window and sets the title
 
     glutDisplayFunc(myDisplay);
     myInit(); // additional initializations as necessary
